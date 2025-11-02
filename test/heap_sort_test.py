@@ -15,3 +15,7 @@ import pytest
 )
 def test_heap_sort(input, output):
     assert heap_sort(input) == output
+
+def test_heap_sort_edge_cases():
+    assert heap_sort([1]) == [1]
+    assert heap_sort([]) == []

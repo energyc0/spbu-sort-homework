@@ -15,3 +15,7 @@ import pytest
 )
 def test_quick_sort(input, output):
     assert quick_sort(input) == output
+
+def test_quick_sort_edge_cases():
+    assert quick_sort([1]) == [1]
+    assert quick_sort([]) == []

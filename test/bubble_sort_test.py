@@ -15,3 +15,7 @@ import pytest
 )
 def test_bubble_sort(input, output):
     assert bubble_sort(input) == output
+
+def test_bubble_sort_edge_cases():
+    assert bubble_sort([1]) == [1]
+    assert bubble_sort([]) == []

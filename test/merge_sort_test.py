@@ -15,3 +15,7 @@ import pytest
 )
 def test_merge_sort(input, output):
     assert merge_sort(input) == output
+
+def test_merge_sort_edge_cases():
+    assert merge_sort([1]) == [1]
+    assert merge_sort([]) == []
