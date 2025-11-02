@@ -1,4 +1,4 @@
-from src.heap_sort import heap_sort
+from tinypysort.heap_sort import heap_sort
 import pytest
 
 

@@ -1,4 +1,4 @@
-from src.bubble_sort import bubble_sort
+from tinypysort.bubble_sort import bubble_sort
 import pytest
 
 
