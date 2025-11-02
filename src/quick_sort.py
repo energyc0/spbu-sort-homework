@@ -1,8 +1,11 @@
 def quick_sort(array: list) -> list:
+    """
+    Quick sort algorithm.
+    """
     if len(array) <= 1:
         return array
 
-    def partition(array: list):
+    def partition(array: list) -> tuple[list, int]:
         """
         Take pivot element and partition the list,
         Return array and position of the element

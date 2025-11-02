@@ -1,6 +1,12 @@
-def merge_sort(arr):
-    # Merge two sorted arrays into one and return it.
-    def merge(left, right):
+def merge_sort(arr: list) -> list:
+    """
+    Merge sort algorithm.
+    """
+
+    def merge(left: list, right: list) -> list:
+        """
+        Merge two sorted arrays into one and return it.
+        """
         result = []
         i = 0
         j = 0

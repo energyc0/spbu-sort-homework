@@ -1,7 +1,12 @@
-# Heap sort algorithm
 def heap_sort(arr: list) -> list:
-    # Makes max-heap
+    """
+    Heap sort algorithm
+    """
+
     def heapify(n: int, i: int) -> None:
+        """
+        Makes max-heap
+        """
         largest = i
         left = i * 2 + 1
         right = i * 2 + 2

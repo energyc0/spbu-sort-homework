@@ -1,4 +1,7 @@
-def bubble_sort(arr: list):
+def bubble_sort(arr: list) -> list:
+    """
+    Bubble sort algorithm.
+    """
     for i in range(len(arr)):
         for j in range(1, len(arr) - i):
             if arr[j] < arr[j - 1]:
